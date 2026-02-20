@@ -68,7 +68,7 @@ Please note that these plugins have their own dependencies so check each plugin'
 - LSP/DAP/Linter installer: [**mason.nvim**](https://github.com/mason-org/mason.nvim)
 - File explorer: [**nvim-tree.lua**](https://github.com/nvim-tree/nvim-tree.lua)
 - Syntax highlighting / parsing: [**nvim-treesitter**](https://github.com/nvim-treesitter/nvim-treesitter)
-- Status line: [**lualine.nvim**](https://github.com/beauwilliams/statusline.lua)
+- Status line: [**statusline.nvim**](https://github.com/beauwilliams/statusline.lua)
 - Fuzzy finder: [**telescope.nvim**](https://github.com/nvim-telescope/telescope.nvim)
 - Programming sessions data: [**triforce**](https://github.com/gisketch/triforce.nvim)
 - Highlights occurrences in a file of text selected in visual mode: [**visimatch**](https://github.com/wurli/visimatch.nvim)
