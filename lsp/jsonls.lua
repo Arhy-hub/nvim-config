@@ -1,7 +1,8 @@
 -- lsp config for json
 return {
 	cmd = {
-		"vscode-json-language-server"
+		"vscode-json-language-server",
+		"--stdio",
 	},
 	filetypes = {
 		"json",
