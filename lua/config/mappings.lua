@@ -32,6 +32,15 @@ map("n", "k", "gk", opts)
 map("v", "J", ":m '>+1<CR>gv=gv", opts)
 map("v", "K", ":m '<-2<CR>gv=gv", opts)
 
+map("n","<leader>l",function()
+   vim.wo.number = not vim.wo.number
+end
+)
+
+map("n","<leader>r",function()
+vim.wo.relativenumber = not vim.wo.relativenumber
+end
+)
 -----------------------------------------------------------
 -- TELESCOPE
 -----------------------------------------------------------
